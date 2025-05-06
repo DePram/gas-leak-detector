@@ -44,4 +44,23 @@
 ## Set Up Blynk Dashboard
 - Add Widgets like Button, Slider, Gauge, etc.
 - Assign each widget to a Virtual Pin, note down:
-  - GasValueH (V0) -> Double, 
+  - GasValueH (V0) -> Double; 0,1000,0; PartsPerMillion
+  - GasValue (V1) -> Double; 0,1000,0; PartsPerMillion
+  - OnOff_Solenoid (V3) -> Integer; 0,1,1
+  - OnOff-Alarm (V4) -> Integer; 0,1,0
+  - DangerOrSafe (V5) -> Integer; 0,1,0
+  - GasThreshold (V6) -> Integer; 0,1000,255; PartsPerMillion
+  - EnableNotif (V7) -> Integer; 0,1,1
+ 
+    
+![blynk edit](https://github.com/user-attachments/assets/90e9603d-5817-4ca4-887b-ec5489091aed)
+
+## Upload and Test
+- Connect your ESP board to your computer
+- Select the correct Board and COM port
+- Click Upload
+- Open Serial Monitor to see the connection logs
+- On the Blynk app, interact with the widget
+- If set up properly, your ESP will respond to the app actions
+
+### Thanks and Have Fun!!🚀✨

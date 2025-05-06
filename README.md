@@ -12,4 +12,12 @@ Component Use :
 - one resistor 150-220 ohm
 - Cable Jumper
 
+Software Use :
+- Arduino IDE
+- Blynk IoT app
+- Internet
+- Latest Blynk Library
+
 ![gasLeakDetector3dDiagram_bb](https://github.com/user-attachments/assets/1f884a6c-742c-42f5-8ccb-8c7454d07845)
+
+

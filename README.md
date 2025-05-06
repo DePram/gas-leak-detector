@@ -1,5 +1,5 @@
 # Smart Gas Leak Detector
-###Smart simple IoT for Gas Leak Detector which is integrated with Platform Blynk and can close the gas flow if it detected gas leak
+Smart simple IoT for Gas Leak Detector which is integrated with Platform Blynk and can close the gas flow if it detected gas leak
 ----------------------------------------------------------------------------
 ## Component Use : 
 - one Breadboard

@@ -19,9 +19,6 @@ Smart simple IoT for Gas Leak Detector which is integrated with Platform Blynk a
 - Internet
 - Latest Blynk Library
 
-## Wiring Diagram
-![gasLeakDetector3dDiagram_bb](https://github.com/user-attachments/assets/1f884a6c-742c-42f5-8ccb-8c7454d07845)
-
 ## Install Blynk Library in Arduino IDE
 - Open Arduino IDE
 - Go to Sketch > Include Library > Manage Libraries
@@ -51,9 +48,6 @@ Smart simple IoT for Gas Leak Detector which is integrated with Platform Blynk a
   - DangerOrSafe (V5) -> Integer; 0,1,0
   - GasThreshold (V6) -> Integer; 0,1000,255; PartsPerMillion
   - EnableNotif (V7) -> Integer; 0,1,1
- 
-    
-![blynk edit](https://github.com/user-attachments/assets/90e9603d-5817-4ca4-887b-ec5489091aed)
 
 ## Upload and Test
 - Connect your ESP board to your computer

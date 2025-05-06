@@ -1,3 +1,4 @@
+// you will get your own from your Blynk
 #define BLYNK_TEMPLATE_ID      "TMPL6V-Kx6Z6F"
 #define BLYNK_TEMPLATE_NAME    "Gas Leak Detector"
 #define BLYNK_AUTH_TOKEN       "ti-XMpCk6FzPUKux9MP20B_tns9nEBXA"
@@ -5,8 +6,8 @@
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
-char ssid[] = "tebakne";
-char pass[] = "hpelitkuotasulit";
+char ssid[] = ""; // your Wifi
+char pass[] = ""; // your Wifi's password
 
 const int GAS_SENSOR = 34;
 const int LED_PIN = 25;
